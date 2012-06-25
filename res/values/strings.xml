@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RunningActivity!</string>
+    <string name="app_name">Hamtarun</string>
+    <color name="bckgText">#fff</color>
+    <color name="bckgApp">#ddd</color>
+</resources>

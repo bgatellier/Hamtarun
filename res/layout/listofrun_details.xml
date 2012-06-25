@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TableLayout android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="match_parent" android:background="@color/bckgApp" android:padding="5dp">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout4" android:layout_weight="1" android:layout_height="wrap_content">
+                <TextView android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="Date" android:textColor="#000" android:textStyle="bold" android:layout_height="wrap_content" android:id="@+id/txt_startdate_value"></TextView>
+                <TextView android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:textColor="#000" android:textStyle="bold" android:layout_height="wrap_content" android:text="Duration" android:id="@+id/txt_duration_value" android:gravity="right"></TextView>
+            </LinearLayout>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_weight="1">
+                <TableLayout android:id="@+id/tableLayout2" android:layout_weight="1" android:layout_width="0dp" android:layout_height="fill_parent">
+                    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="2dp" android:paddingBottom="2dp">
+                        <TextView android:id="@+id/txt_distance_lbl" android:layout_height="wrap_content" android:textColor="#000" android:text="Distance:" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+                        <TextView android:id="@+id/txt_distance_value" android:layout_height="wrap_content" android:textColor="#000" android:text="value" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+                        <TextView android:id="@+id/txt_distance" android:layout_height="wrap_content" android:textColor="#000" android:text="km" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+                    </TableRow>
+                    <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="2dp" android:paddingTop="2dp">
+                        <TextView android:id="@+id/txt_speed_lbl" android:layout_height="wrap_content" android:textColor="#000" android:text="Speed:" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+                        <TextView android:id="@+id/txt_speed_value" android:layout_height="wrap_content" android:textColor="#000" android:text="value" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+                        <TextView android:layout_height="wrap_content" android:textColor="#000" android:text="km/h" android:id="@+id/text_speed" android:layout_weight="1" android:layout_width="wrap_content"></TextView>
+                    </TableRow>
+                </TableLayout>
+                <TableLayout android:id="@+id/tableLayout3" android:layout_weight="1" android:layout_width="0dp" android:layout_height="fill_parent">
+                    <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="2dp" android:paddingTop="2dp">
+                        <TextView android:id="@+id/txt_calories_lbl" android:layout_height="wrap_content" android:textColor="#000" android:text="Calories:" android:layout_weight="1" android:layout_width="wrap_content" android:gravity="right"></TextView>
+                        <TextView android:id="@+id/txt_calories_value" android:layout_height="wrap_content" android:text="value" android:textColor="#000" android:layout_weight="1" android:layout_width="wrap_content" android:gravity="right"></TextView>
+                        <TextView android:id="@+id/txt_calories" android:layout_height="wrap_content" android:textColor="#000" android:text="kCal" android:layout_weight="1" android:layout_width="wrap_content" android:gravity="right"></TextView>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    
+</RelativeLayout>
